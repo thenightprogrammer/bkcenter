@@ -1,12 +1,34 @@
 .parallax-bg {
     min-height: 65vh;
-    background-image: url("img/parallax.jpg");
-    /* background: url('../img/newyork.jpg'); */
     position:relative;
     background-attachment:fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.parallax-1 {
+    background-image: url("../img/parallax.jpg");
+}
+
+.parallax-2 {
+    background-image: url("../img/parallax.jpg");
+}
+
+.parallax-3 {
+    background-image: url("../img/parallax.jpg");
+}
+
+.parallax-4 {
+    background-image: url("../img/parallax.jpg");
+}
+
+.parallax-5 {
+    background-image: url("../img/parallax.jpg");
+}
+
+.parallax-6 {
+    background-image: url("../img/parallax.jpg");
 }
 
 .project-content {
@@ -24,6 +46,10 @@
 
 .row .col {
     padding: 0 .1rem !important;
+}
+
+.table {
+    padding-bottom: 2rem;
 }
 
 @media(max-width: 600px) {
