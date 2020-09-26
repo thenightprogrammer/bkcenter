@@ -35,9 +35,16 @@
      font-family: 'Raleway', sans-serif;
  }
 
- /* .logo {
-     width: 30%;
+ /* .brand-logo {
+     text-align: center;
+     
  } */
+
+ .logo {
+     width: 30%;
+     height: 30%;
+     vertical-align: middle;
+ }
 
  .showcase-content {
      display: flex;
@@ -89,7 +96,40 @@
  .project-header {
      font-size: 5rem;
  }
+ /* Shine */
+ .projects .project {
+    position: relative;
+    overflow: hidden;
+}
 
+.projects .project::before {
+	position: absolute;
+	top: 0;
+	left: -80%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.projects .project:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
 
 
  /* Parallax Section */
@@ -238,6 +278,16 @@
 }
 
 @media(max-width:  1000px) {
+    .brand-logo {
+        text-align: center;   
+    }
+
+    .logo {
+        width: 40%;
+        height: 40%;
+    }
+
+
     .showcase-content {
         min-height: 70vh;
     }
@@ -271,6 +321,12 @@
 
 @media(max-width: 600px) {
 
+    .logo {
+        width: 70%;
+        height: 70%;
+    }
+
+    
     .showcase-content h1 {
         font-size: 4rem;
     }
