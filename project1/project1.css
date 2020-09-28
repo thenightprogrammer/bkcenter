@@ -1,10 +1,10 @@
 .parallax-bg {
     min-height: 65vh;
-    background-image: url("img/parallax.jpg");
+    background-image: url("img/epaqt.jpg");
     /* background: url('../img/newyork.jpg'); */
     position:relative;
     background-attachment:fixed;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
