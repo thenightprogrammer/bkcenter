@@ -1,0 +1,79 @@
+.parallax-bg {
+    min-height: 65vh;
+    position:relative;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax-1 {
+    background-image: url("../project1/img/epaqt.jpg");
+}
+
+.parallax-2 {
+    background-image: url("../project2/img/parallax.jpg");
+}
+
+.parallax-3 {
+    background-image: url("../project3/img/parallax.jpg");
+}
+
+.parallax-4 {
+    background-image: url("../project4/img/parallax.jpg");
+}
+
+.parallax-5 {
+    background-image: url("../project5/img/parallax.jpg");
+}
+
+.parallax-6 {
+    background-image: url("../project6/img/parallax.jpg");
+}
+
+.project-bg-center {
+    background-position: center !important;
+}
+
+.project-content {
+    padding: 2rem 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.project-content h1 {
+    padding-bottom: 1rem;
+}
+
+.gallery {
+    margin: 1rem 0 3rem;
+}
+
+.row {
+    margin-bottom: 0 !important;
+}
+
+.row .col {
+    padding: 0 .1rem !important;
+}
+
+.table {
+    padding-bottom: 2rem;
+}
+
+/* .s-big {
+    width: 650px;
+} */
+
+.bigger {
+    width: 450px;
+}
+
+@media(max-width: 600px) {
+    .parallax-bg {
+        background-position: bottom;
+    }
+
+    .project h1 {
+        font-size: 3.5rem;
+    }
+ }
