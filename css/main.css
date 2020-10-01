@@ -142,7 +142,6 @@
      position:relative;
      background-attachment:fixed;
      background-position: center;
-     /* background-size: cover; */
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding: 0 10%;
@@ -319,6 +318,10 @@
 
     .about-image img {
         width: 70%;
+    }
+
+    .home-parallax, .parallax-bg {
+        background-attachment: scroll;
     }
 }
 
