@@ -320,7 +320,7 @@
         width: 70%;
     }
 
-    .home-parallax, .parallax-bg {
+    .home-parallax {
         background-attachment: scroll;
     }
 }

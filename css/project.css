@@ -72,6 +72,12 @@ html, body {
     width: 450px;
 }
 
+@media(max-width: 1200px) {
+    .parallax-bg {
+        background-attachment: scroll;
+    }
+}
+
 @media(max-width: 600px) {
     .project h1 {
         font-size: 3.5rem;
