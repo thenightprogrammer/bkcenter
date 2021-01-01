@@ -12,27 +12,27 @@ html, body {
 }
 
 .parallax-1 {
-    background-image: url("../project1/img/epaqt.jpg");
+    background-image: url("../projektet/bk-center-images/epaqt.jpg");
 }
 
 .parallax-2 {
-    background-image: url("../project2/img/parallax.jpg");
+    background-image: url("../projektet/ndertesat-para-ptk-images/parallax.jpg");
 }
 
 .parallax-3 {
-    background-image: url("../project3/img/parallax.jpg");
+    background-image: url("../projektet/objekti-kolektiv-bob-images/parallax.jpg");
 }
 
 .parallax-4 {
-    background-image: url("../project4/img/parallax.jpg");
+    background-image: url("../projektet/objekti-kolektiv-qarshia-images/parallax.jpg");
 }
 
 .parallax-5 {
-    background-image: url("../project5/img/parallax.jpg");
+    background-image: url("../projektet/lokali-afer-prishtina-mall-images/parallax.jpg");
 }
 
 .parallax-6 {
-    background-image: url("../project6/img/parallax.jpg");
+    background-image: url("../projektet/objektet-kolektive-rruga-skenderbeu-images/parallax.jpg");
 }
 
 .project-bg-center {
