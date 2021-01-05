@@ -1,5 +1,5 @@
 function initMap(){
-    var location = {lat: 42.230235, lng: 21.256846};
+    var location = {lat: 42.56632, lng: 21.13271};
     var options = {
       zoom: 16,
       center: location //42.230235, 21.256846
