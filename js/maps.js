@@ -13,7 +13,7 @@ function initMap(){
     });
 
     var infoWindow = new google.maps.InfoWindow ({
-      content: '<p class="lead">Ristorante Salute</p>'
+      content: '<p class="lead">BK Group</p>'
     });
 
     marker.addListener('click', function() {
