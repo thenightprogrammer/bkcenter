@@ -30,7 +30,7 @@
      min-height: 100vh;
      font-family: 'Montserrat', sans-serif;
      /* background-image: linear-gradient(rgba(255,0,0,0.1),rgba(255,0,0,0.1)), url("../img/bkbg.jpg"); */
-     background: url('../img/bkbg.jpg');
+     background: url('../img/bk-group-background.jpg');
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
@@ -97,6 +97,11 @@
 	-webkit-animation: shine .75s;
 	animation: shine .75s;
 }
+
+.projects .project img {
+    border-radius: 3px;
+}
+
 @-webkit-keyframes shine {
 	100% {
 		left: 125%;
@@ -113,7 +118,7 @@
 
  .home-parallax {
      min-height: 40vh;
-     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/parallaxbk.jpg");
+     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/parallax-bk-group.jpg");
      /* background: url('../img/parallaxbk.jpg'); */
      position:relative;
      background-attachment:fixed;
@@ -131,7 +136,7 @@
 
  .parallax-content h1 {
      font-size: 3rem;
-     
+     font-weight: bold;
  }
 
  .parallax-content p {
